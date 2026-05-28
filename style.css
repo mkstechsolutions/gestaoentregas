@@ -1,0 +1,19 @@
+/* Bordas da navegação ativa */
+.active-tab { 
+    border-bottom: 3px solid #3b82f6; 
+    color: #3b82f6; 
+}
+
+/* Customização e suavização do scroll do histórico para dispositivos móveis */
+#lista-historico::-webkit-scrollbar { 
+    width: 4px; 
+}
+
+#lista-historico::-webkit-scrollbar-track { 
+    background: rgba(30, 41, 59, 0.5); 
+}
+
+#lista-historico::-webkit-scrollbar-thumb { 
+    background: #475569; 
+    border-radius: 9999px; 
+}
